@@ -1,0 +1,55 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment/config
+.env
+.env.*
+!.env.example
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Notebook/runtime checkpoints
+.ipynb_checkpoints/
+
+# Logs and temporary outputs
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+_smoke_submission.csv
+test_submission.csv
+old_submission.csv
+tmp_submission.csv
+
+# Precompute/resume scratch state; final artifacts stay tracked
+artifacts/candidate_embeddings_progress.json
+
+# Hugging Face/cache folders created during fresh setup; final model snapshots stay tracked
+models/hf_cache/
+.cache/
+
+# Nested Git metadata accidentally created by model snapshot downloads
+models/**/.git/
+
+models/bge_reranker/model.safetensors

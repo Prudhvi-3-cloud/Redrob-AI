@@ -1,0 +1,72 @@
+# Redrob Hack2Skill submission metadata.
+# Fill TODO values with the exact values submitted in the portal.
+
+team_name: "SRIT BUGS"
+
+primary_contact:
+  name: "MohammadHanif Juturu"
+  email: "mohammadhanifjuturu@gmail.com"
+  phone: "9000743102"
+
+team_members:
+  - name: "Prudhvi Narayana P"
+    email: "pprudhvi902@gmail.com"
+    role: "Teammate"
+
+github_repo: "TODO"
+sandbox_link: "TODO"
+
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --job-description ./job_description.docx --cross-encoder-limit 30 --out ./submission.csv && python patch_reasoning.py"
+validation_command: "python validate_submission.py --submission ./submission.csv"
+
+compute:
+  platform: "Local Windows workstation"
+  cpu_model: "11th Gen Intel(R) Core(TM) i5-1155G7 @ 2.50GHz"
+  cpu_cores: 4
+  logical_processors: 8
+  ram_gb: 16
+  python_version: "3.10.5"
+  os: "Windows"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: true
+  pre_computation_time_minutes: "TODO"
+  ranking_runtime_seconds_cross_encoder_limit_30: 128.3
+
+precomputed_artifacts:
+  - "artifacts/bm25s_index/"
+  - "artifacts/candidate_embeddings.npy"
+  - "artifacts/candidate_ids.json"
+  - "artifacts/candidates_parsed.pkl"
+
+local_models:
+  embedding_model_path: "models/bge_small"
+  reranker_model_path: "models/bge_reranker"
+  rank_py_uses_local_files_only: true
+
+ai_tools_used:
+  - "OpenAI Codex"
+
+ai_usage_summary: |
+  OpenAI Codex was used as a coding assistant for implementation, patching,
+  documentation, and release review. The ranking run itself is local and does
+  not call hosted AI APIs.
+
+methodology_summary: |
+  The solution precomputes a BM25S index, normalized BGE-small candidate
+  embeddings, candidate ids, and parsed candidate records. At ranking time,
+  rank.py loads the official job description, retrieves a bounded candidate
+  pool with sparse and dense search, fuses rankings with reciprocal-rank
+  fusion, reranks the first 30 fused candidates with a local BGE reranker, and
+  combines semantic score with JD evidence scoring and bounded Redrob behavior
+  signals. Hard exclusions cover detected honeypots, pure research-only
+  profiles, sub-3-year experience, non-India candidates unwilling to relocate,
+  recent LangChain-only profiles without older ML/retrieval evidence, and
+  recent no-code management profiles.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

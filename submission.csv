@@ -1,0 +1,101 @@
+candidate_id,rank,score,reasoning
+CAND_0002025,1,0.9900,Top-tier fit: 6yr Senior AI Engineer at Apple; Apple history shows recommendation systems work.
+CAND_0081846,2,0.9638,Top-tier fit: Lead AI Engineer with 7yr experience; prior Lead AI Engineer role maps to JD search relevance.
+CAND_0071974,3,0.9404,Top-tier fit: 8yr Senior AI Engineer; career record includes production-facing recommendation systems at Netflix.
+CAND_0018499,4,0.9329,Top-tier fit: Zomato Senior Machine Learning Engineer with 7yr; strongest signal is hands-on search relevance.
+CAND_0046525,5,0.9019,Top-tier fit: 6yr Senior Machine Learning Engineer at Genpact AI; Genpact AI history shows search relevance work.
+CAND_0077337,6,0.8407,Top-tier fit: Staff Machine Learning Engineer with 7yr experience; prior Staff Machine Learning Engineer role maps to JD recommendation systems.
+CAND_0005538,7,0.8383,Top-tier fit: 6yr Senior AI Engineer; career record includes production-facing ranking systems at Adobe.
+CAND_0006567,8,0.8165,"Top-tier fit: 8yr Senior AI Engineer at Meta; product-company background with Vector Representations, NLP, Ranking Systems."
+CAND_0046064,9,0.7899,Top-tier fit: 9yr Senior NLP Engineer at Salesforce; Verloop.io history shows search relevance work.
+CAND_0086022,10,0.7833,Top-tier fit: Senior Applied Scientist with 5yr experience; prior Senior Applied Scientist role maps to JD search relevance.
+CAND_0088025,11,0.7776,Strong fit: 9yr Staff Machine Learning Engineer; career record includes production-facing recommendation systems at Yellow.ai.
+CAND_0039754,12,0.7281,"Top-tier fit: 16yr over the 5-9yr band, but Apple role shipped hybrid BM25+dense semantic search (fine-tuned BGE-large, 35M items, NDCG@10 +18%, embedding drift monitoring); Meta role owns BGE-large → Pinecone → XGBoost LTR pipeline with A/B-calibrated offline eval; Observe.AI built recruiter-facing ranking serving 50M+ queries/mo. 30d notice, GitHub 77.5, RRR 0.81. Exception justified per JD's own outlier clause."
+CAND_0093193,13,0.7174,"Strong fit: 8yr Senior Machine Learning Engineer at Niramai; product-company background with Ranking Systems, Vector Representations, Qdrant."
+CAND_0061257,14,0.7133,"Strong fit: 8yr Staff Machine Learning Engineer at LinkedIn; product-company background with Information Retrieval Systems, Vector Representations."
+CAND_0011687,15,0.7033,Strong fit: 8yr Senior NLP Engineer; career record includes production-facing recommendation systems at Niramai.
+CAND_0008425,16,0.6601,Strong fit: Ola Senior NLP Engineer with 8yr; strongest signal is hands-on search relevance.
+CAND_0094759,17,0.5540,Strong fit: 9yr Lead AI Engineer at Meta; Meta history shows search relevance work. Concerns: not marked open-to-work.
+CAND_0068351,18,0.5208,"Strong fit: 6yr Lead AI Engineer at Sarvam AI; product-company background with pgvector, Qdrant, Elasticsearch. Concerns: not marked open-to-work."
+CAND_0080766,19,0.4674,Strong fit: 9yr Staff Machine Learning Engineer; career record includes production-facing search relevance at Haptik. Concerns: not marked open-to-work.
+CAND_0050454,20,0.4634,Strong fit: Rephrase.ai AI Engineer with 7yr; strongest signal is hands-on search relevance.
+CAND_0060072,21,0.4533,Strong fit: 6yr Staff Machine Learning Engineer at Amazon; Amazon history shows recommendation systems work. Concerns: not marked open-to-work.
+CAND_0033861,22,0.4441,Strong fit: Senior NLP Engineer with 8yr experience; prior Senior NLP Engineer role maps to JD search relevance. Concerns: not marked open-to-work.
+CAND_0044222,23,0.4433,Strong fit: 8yr AI Engineer; career record includes production-facing search relevance at PolicyBazaar.
+CAND_0004402,24,0.4423,Strong fit: Yellow.ai AI Research Engineer with 6yr; strongest signal is hands-on recommendation systems.
+CAND_0043860,25,0.4419,"Moderate fit: 6.1yr at Aganitha (titled Junior ML by company convention); Aganitha work is collaborative filtering + gradient-boosted re-ranking over engagement signals — production but lighter than FAANG-scale retrieval. Concern: Nykaa role was primarily CV (ResNet image moderation); candidate self-describes NLP/LLM as a transition in progress. 30d notice, RRR 0.81. Ranked here on retrieval adjacency; NLP depth unconfirmed."
+CAND_0049978,26,0.4221,Strong fit: Senior Software Engineer (ML) with 7yr experience; prior Senior Software Engineer (ML) role maps to JD recommendation systems.
+CAND_0098846,27,0.4173,Strong fit: 8yr AI Engineer; career record includes production-facing search relevance at Swiggy.
+CAND_0079387,28,0.4047,Strong fit: Microsoft AI Engineer with 7yr; strongest signal is hands-on recommendation systems.
+CAND_0064326,29,0.3994,Strong fit: 8yr Search Engineer at Sarvam AI; Freshworks history shows semantic retrieval work.
+CAND_0007411,30,0.3993,Strong fit: Senior Machine Learning Engineer with 8yr experience; prior Senior Machine Learning Engineer role maps to JD recommendation systems. Concerns: not marked open-to-work.
+CAND_0014683,31,0.3942,Good fit: 6yr Senior Software Engineer (ML); career record includes production-facing recommendation systems at Dream11. Concerns: 120d notice (JD prefers <30d).
+CAND_0010685,32,0.3938,Good fit: Rephrase.ai NLP Engineer with 7yr; strongest signal is hands-on search relevance.
+CAND_0020350,33,0.3832,"Good fit: 6yr AI Engineer at Zoho; product-company background with NLP, LLMs, FAISS."
+CAND_0029367,34,0.3792,Good fit: Senior Data Scientist with 6yr experience; prior Senior Data Scientist role maps to JD search relevance.
+CAND_0076251,35,0.3768,Good fit: 8yr Search Engineer; career record includes production-facing search relevance at Haptik.
+CAND_0070525,36,0.3760,Good fit: Mad Street Den Senior Software Engineer (ML) with 5yr; strongest signal is hands-on recommendation systems.
+CAND_0062247,37,0.3749,Good fit: 7yr AI Engineer at Google; Google history shows search relevance work.
+CAND_0039383,38,0.3698,Good fit: Applied ML Engineer with 7yr experience; prior Machine Learning Engineer role maps to JD search relevance.
+CAND_0058575,39,0.3639,Good fit: 6yr AI Engineer; career record includes production-facing search relevance at Krutrim.
+CAND_0060835,40,0.3634,Good fit: Sarvam AI Senior Software Engineer (ML) with 7yr; strongest signal is hands-on recommendation systems.
+CAND_0053695,41,0.3606,Good fit: 6yr Recommendation Systems Engineer at Meesho; Meesho history shows recommendation systems work.
+CAND_0044883,42,0.3507,Good fit: AI Engineer with 6yr experience; prior AI Engineer role maps to JD semantic retrieval. Concerns: located Germany; relocation required.
+CAND_0028793,43,0.3498,Good fit: 7yr Search Engineer; career record includes production-facing search relevance at Google. Concerns: 120d notice (JD prefers <30d).
+CAND_0078002,44,0.3473,Good fit: Meta Machine Learning Engineer with 6yr; strongest signal is hands-on recommendation systems.
+CAND_0011432,45,0.3415,Good fit: 8yr Senior Data Scientist at Amazon; Krutrim history shows semantic retrieval work.
+CAND_0042506,46,0.3324,Good fit: Search Engineer with 4yr experience; prior Search Engineer role maps to JD search relevance. Concerns: 4.2yr below JD's 5yr floor.
+CAND_0031593,47,0.3161,Good fit: 8yr Search Engineer; career record includes production-facing semantic retrieval at Unacademy.
+CAND_0025882,48,0.3155,Good fit: Freshworks Senior Software Engineer (ML) with 6yr; strongest signal is hands-on recommendation systems. Concerns: consulting background (HCL).
+CAND_0012888,49,0.3139,Good fit: 6yr Junior ML Engineer; Niramai history shows retrieval/ranking/recommendation work without obvious AI-keyword labels.
+CAND_0060315,50,0.3132,Good fit: Senior Software Engineer (ML) with 5yr experience; prior AI Specialist role maps to JD recommendation systems.
+CAND_0033179,51,0.3110,Good fit: 7yr AI Research Engineer; career record includes production-facing recommendation systems at Wipro. Concerns: consulting background (Wipro).
+CAND_0037980,52,0.3107,"Good fit: 9yr Senior Applied Scientist at Niramai; product-company background with NLP, pgvector, Prompt Engineering."
+CAND_0099806,53,0.2990,"Good fit: 5yr AI Engineer at Mad Street Den; product-company background with RAG, Prompt Engineering, pgvector. Concerns: 4.6yr below JD's 5yr floor."
+CAND_0027691,54,0.2955,Good fit: NLP Engineer with 6yr experience; prior Applied ML Engineer role maps to JD search relevance.
+CAND_0081852,55,0.2909,Good fit: 6yr Senior Data Scientist; career record includes production-facing semantic retrieval at Mad Street Den.
+CAND_0041610,56,0.2898,Good fit: Zoho Recommendation Systems Engineer with 7yr; strongest signal is hands-on recommendation systems.
+CAND_0075574,57,0.2862,Good fit: 6yr Machine Learning Engineer at Haptik; Genpact AI history shows semantic retrieval work.
+CAND_0017960,58,0.2842,Good fit: Recommendation Systems Engineer with 8yr experience; prior Recommendation Systems Engineer role maps to JD recommendation systems.
+CAND_0041611,59,0.2803,Good fit: 6yr Staff Machine Learning Engineer; career record includes production-facing search relevance at Locobuzz. Concerns: located USA; relocation required.
+CAND_0091909,60,0.2800,Good fit: Rephrase.ai Machine Learning Engineer with 7yr; strongest signal is hands-on recommendation systems.
+CAND_0006418,61,0.2724,"Moderate fit: 6yr Machine Learning Engineer at Verloop.io; product-company background with Semantic Search, Embeddings, Weaviate."
+CAND_0037944,62,0.2714,Moderate fit: Senior Data Scientist with 5yr experience; prior Applied ML Engineer role maps to JD semantic retrieval. Concerns: 4.9yr below JD's 5yr floor.
+CAND_0015578,63,0.2713,Moderate fit: 5yr AI Engineer; career record includes production-facing semantic retrieval at Zoho.
+CAND_0051292,64,0.2695,Moderate fit: Freshworks Applied ML Engineer with 5yr; strongest signal is hands-on search relevance.
+CAND_0018549,65,0.2679,Moderate fit: 7yr Recommendation Systems Engineer at Uber; Uber history shows recommendation systems work.
+CAND_0042029,66,0.2630,Moderate fit: Senior Data Scientist with 6yr experience; prior Machine Learning Engineer role maps to JD semantic retrieval.
+CAND_0010257,67,0.2622,Moderate fit: 6yr Senior Data Scientist; career record includes production-facing recommendation systems at Google. Concerns: 120d notice (JD prefers <30d).
+CAND_0030031,68,0.2614,Moderate fit: Microsoft AI Engineer with 6yr; strongest signal is hands-on recommendation systems.
+CAND_0070398,69,0.2603,Moderate fit: 7yr Machine Learning Engineer at Genpact AI; Genpact AI history shows search relevance work. Concerns: 120d notice (JD prefers <30d).
+CAND_0093912,70,0.2583,Moderate fit: Senior Data Scientist with 5yr experience; prior Search Engineer role maps to JD search relevance.
+CAND_0052328,71,0.2557,Moderate fit: 6yr Recommendation Systems Engineer; career record includes production-facing recommendation systems at Amazon.
+CAND_0006557,72,0.2531,Moderate fit: Paytm NLP Engineer with 8yr; strongest signal is hands-on recommendation systems. Concerns: 120d notice (JD prefers <30d).
+CAND_0052682,73,0.2524,Moderate fit: 7yr NLP Engineer at Aganitha; Aganitha history shows recommendation systems work.
+CAND_0080344,74,0.2513,Moderate fit: Senior Software Engineer (ML) with 5yr experience; prior Junior ML Engineer role maps to JD recommendation systems. Concerns: 4.9yr below JD's 5yr floor.
+CAND_0049896,75,0.2478,Moderate fit: 7yr Search Engineer; career record includes production-facing search relevance at Unacademy.
+CAND_0068811,76,0.2476,Moderate fit: Freshworks Applied ML Engineer with 8yr; strongest signal is hands-on recommendation systems.
+CAND_0037566,77,0.2468,Moderate fit: 7yr Machine Learning Engineer at LinkedIn; LinkedIn history shows semantic retrieval work.
+CAND_0053605,78,0.2432,Moderate fit: Senior Software Engineer (ML) with 7yr experience; prior Senior Software Engineer (ML) role maps to JD recommendation systems. Concerns: consulting background (TCS).
+CAND_0075249,79,0.2427,Moderate fit: 6yr Applied ML Engineer; career record includes production-facing recommendation systems at Zomato.
+CAND_0065878,80,0.2391,Moderate fit: Niramai Senior Data Scientist with 8yr; strongest signal is hands-on recommendation systems.
+CAND_0061175,81,0.2384,Moderate fit: 7yr AI Research Engineer at Haptik; Haptik history shows recommendation systems work. Concerns: 120d notice (JD prefers <30d).
+CAND_0042100,82,0.2379,"Moderate fit: 7yr Machine Learning Engineer at Freshworks; product-company background with Elasticsearch, Learning to Rank, Recommendation Systems. Concerns: located Singapore; relocation required."
+CAND_0007009,83,0.2377,Moderate fit: 8yr Recommendation Systems Engineer; career record includes production-facing recommendation systems at Wysa.
+CAND_0077285,84,0.2376,Moderate fit: Nykaa Recommendation Systems Engineer with 6yr; strongest signal is hands-on recommendation systems.
+CAND_0041669,85,0.2361,Moderate fit: 8yr Recommendation Systems Engineer at CRED; CRED history shows recommendation systems work.
+CAND_0030468,86,0.2330,Moderate fit: Senior Applied Scientist with 5yr experience; prior Senior Applied Scientist role maps to JD ranking systems.
+CAND_0073007,87,0.2320,Moderate fit: 6yr AI Specialist; career record includes production-facing recommendation systems at Aganitha.
+CAND_0066376,88,0.2263,Moderate fit: Dream11 Applied ML Engineer with 6yr; strongest signal is hands-on recommendation systems.
+CAND_0059795,89,0.2231,Moderate fit: 6yr Senior Software Engineer (ML) at Locobuzz; Wysa history shows recommendation systems work.
+CAND_0001930,90,0.2230,Moderate fit: Senior Software Engineer (ML) with 7yr experience; prior Senior Software Engineer (ML) role maps to JD recommendation systems. Concerns: 120d notice (JD prefers <30d).
+CAND_0052335,91,0.2207,Moderate fit: 6yr Applied ML Engineer; career record includes production-facing semantic retrieval at Wysa. Concerns: located Germany; relocation required.
+CAND_0058688,92,0.2201,Moderate fit: Vedantu AI Engineer with 7yr; strongest signal is hands-on recommendation systems. Concerns: located Germany; relocation required.
+CAND_0069905,93,0.2188,Moderate fit: 7yr Applied ML Engineer at Sarvam AI; Sarvam AI history shows search relevance work.
+CAND_0060054,94,0.2108,Moderate fit: AI Engineer with 6yr experience; prior AI Engineer role maps to JD search relevance.
+CAND_0040117,95,0.2080,Moderate fit: 6yr Recommendation Systems Engineer; career record includes production-facing recommendation systems at PhonePe.
+CAND_0005269,96,0.2066,"Moderate fit: 6yr Senior Software Engineer (ML) at Sarvam AI; product-company background with Information Retrieval, Hugging Face Transformers, Fine-tuning LLMs."
+CAND_0079064,97,0.2065,Moderate fit: 5yr Senior Data Scientist at Niramai; Niramai history shows search relevance work. Concerns: 120d notice (JD prefers <30d).
+CAND_0011327,98,0.2035,Moderate fit: AI Research Engineer with 6yr experience; prior AI Specialist role maps to JD recommendation systems.
+CAND_0081053,99,0.2012,Moderate fit: 5yr NLP Engineer; career record includes production-facing recommendation systems at Salesforce.
+CAND_0065195,100,0.2000,Moderate fit: CRED Search Engineer with 5yr; strongest signal is hands-on search relevance.
