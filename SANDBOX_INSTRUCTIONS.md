@@ -7,12 +7,11 @@ the portal and `submission_metadata.yaml`.
 ## Recommended Colab Flow
 
 1. Upload `sandbox_demo.ipynb` to Google Colab.
-2. Upload the project to a reachable location:
-   - a public or organizer-accessible GitHub repository, or
-   - a zip file in Google Drive.
-3. In the first notebook cell, set one of:
-   - `REPO_URL = "https://github.com/<user>/<repo>.git"`
-   - or keep `REPO_URL = "TODO"` and upload/extract the repository manually.
+2. The notebook is already configured to clone:
+   `https://github.com/Prudhvi-3-cloud/Redrob-AI.git`
+3. Run the setup cells. They install Git LFS, pull LFS assets, install Python
+   dependencies, and download the reranker weight into `models/bge_reranker/`
+   before ranking.
 4. Run all notebook cells.
 5. Confirm the notebook:
    - installs `requirements.txt`
@@ -33,6 +32,11 @@ The notebook runs the same release command with `--cross-encoder-limit 30`.
 That is the submitted reproduction mode. If you only need a quick smoke test
 while preparing the sandbox, temporarily change the limit to `8`; change it
 back to `30` before final validation.
+
+The GitHub repo intentionally does not track
+`models/bge_reranker/model.safetensors` because it exceeds GitHub's LFS
+per-file limit. The notebook downloads that file during setup, before the
+offline ranking command runs.
 
 ## Files Required In The Sandbox
 

@@ -13,7 +13,7 @@ team_members:
     email: "pprudhvi902@gmail.com"
     role: "Teammate"
 
-github_repo: "TODO"
+github_repo: "https://github.com/Prudhvi-3-cloud/Redrob-AI.git"
 sandbox_link: "TODO"
 
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --job-description ./job_description.docx --cross-encoder-limit 30 --out ./submission.csv && python patch_reasoning.py"

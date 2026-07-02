@@ -135,9 +135,15 @@ location hard wall, YOE floor, and simple reasoning consistency checks.
 ## Sandbox
 
 See `SANDBOX_INSTRUCTIONS.md` and `sandbox_demo.ipynb`. The notebook is prepared
-for Google Colab or a similar hosted environment. It uses `TODO` placeholders
-for the public repository URL because that URL must be created during final
-submission.
+for Google Colab or a similar hosted environment and is configured to clone:
+
+```text
+https://github.com/Prudhvi-3-cloud/Redrob-AI.git
+```
+
+The reranker weight `models/bge_reranker/model.safetensors` is not tracked in
+GitHub because it exceeds GitHub's LFS per-file limit. The sandbox notebook
+downloads that file during setup before running the offline ranking command.
 
 ## Limitations
 
@@ -147,7 +153,7 @@ submission.
 - The reasoning patch is a small release-time correction for two manually
   audited candidates; it does not change ranks or scores.
 - The repository still needs final portal-specific values in
-  `submission_metadata.yaml`: team identity, GitHub URL, and sandbox URL.
+  `submission_metadata.yaml`: team identity and sandbox URL.
 
 ## Troubleshooting
 
